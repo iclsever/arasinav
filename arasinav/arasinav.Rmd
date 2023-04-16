@@ -1,0 +1,65 @@
+---
+title: "Birleşmiş Milletler Barış Gücü'nün Afrika'da Olan Sömürüleri ve Cinsel Suçları"
+author: 
+  - İclal Sever[^1]
+bibliography: ../bibliography/biblio.bib
+csl: ../csl/apa-tr.csl
+header-includes:
+  - \usepackage{polyglossia}
+  - \setmainlanguage{turkish}
+  - \usepackage{booktabs}
+  - \usepackage{caption} 
+  - \captionsetup[table]{skip=10pt}
+output:
+  bookdown::pdf_document2:
+    fig_caption: yes
+    fig_height: 3
+    fig_width: 4
+    keep_tex: no
+    latex_engine: xelatex
+    number_sections: yes
+    toc: no
+geometry: margin=1in
+link-citations: yes
+urlcolor: blue
+fontsize: 12pt
+biblio-style: apalike
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(cache = FALSE, echo = TRUE, message = FALSE, warning = FALSE)
+```
+
+<!-- ======================================================================= -->
+<!-- ============================== NOTLAR ================================= -->
+<!-- ======================================================================= -->
+[^1]: 21080550, [Github Repo](https://github.com/iclsever/arasinav)
+
+
+# Giriş
+
+ Birleşmiş Milletler tarafından yürütülen Barış Gücü operasyonları çatışmalardan kaçınmak, olduğu zaman sonlandırmak ve bunları dönüştürmek için en çok başvurulan metotlardan biridir. İlk barış gücü operasyonu 1948 yılında İsrail ve Arap komşuları arasındaki ateşkesi incelemek üzerine yapılmıştır. Dünyanın bir çok yerinde uygulanmasına rağmen en çok barış misyonu Afrika kıtasında gerçekleşmektedir. 
+ 
+ Barış gücü ekibi gittikleri yere barışı sağlamak gibi hedefleri olsa da, olumsuzluklar yaşama ve barışçılıklarına aykırı davranışlar gösterdikleri durumlar da vardır. Örneğin 2004 yılında Demokratik Kongo Cumhuriyeti'nde mavi bereliler (BM Barış Gücü askerleri) yiyecek, para ve başka malzemeler için yerel halkla cinsel birlikteliklerde bulunuyorlardı. Bu birlikteliklerin bir çoğu rıza ile gerçekleşmiyordu.
+ 
+ 2005 yılında bu durumun önüne geçilebilmesi için Zeid Raporu yayımlansa da, yine de bu tür olayları engellemekte yeterli olmamıştır. Askerlerin gittikleri ülkede dokunulmazlıklarının olması, Afrika'da yaşayan bir çok insanın ve devletin maddi gücünün yetersiz olması ve bu gibi durumlar mavi berelilerin bu suçları işlemesinin önüne geçememiştir.
+ 
+ Bu verileri Harvard Üniversitesi'nin dataserve'ünden alıp düzenleyerek size sunuyorum. Verilerin içinde istismarların hangi bölgede, hangi ülkede ve hangi görevdeyken gerçekleştirildikleri aktarılıyor. Barışçıllık ilkesi altında gerçekleştirilen davranışların göründüğü kadar masum olmadığını insanlara fark ettirmek bu projenin konusunu seçerken asıl motivasyonumdu.
+ 
+
+
+## Çalışmanın Amacı
+
+Bu çalışmanın amacı, Afrika kıtasında farklı ülkelerde yer alan Barış Gücü askerlerinin yerel halka nasıl istismarlarda bulunduklarını ve cinsel olarak nasıl onlardan yararlandıklarını aktarmak ve veri setinin düzenlenmesi sonucunda karşımıza çıkan tabloyu inceleyerek, bu durumun önüne geçilmesi için adıma teşvik ettirmektir.
+
+
+
+## Literatür 
+
+Literatür araştırması sonucunda bulduğum kaynaklarda Afrika kıtasında gerçekleşen barış gücü operasyonları, bu operasyonların tarihi süreçte nasıl ilerlediği, amacından sapmaları ve daha saldırgan olmaları, yerel halkı sömürmeleri ve onlara cinsel saldırılarda bulunmaları ele alınmıştır. Güney Afrika Üniversitesi'nde profesör olan Carol Allais eserinde mavi bereliler tarafından gerçekleşen cinsel istismarın psikososyal bağlamlarını incelemiştir [@allais2011sexual]. Gökhan Ak ve Yasin Başpınar bu çalışmalarında Barış Gücü operasyonlarını tarihi süreç açısından incelemişlerdir. Bunun yanı sıra bölgede yaşanan coğrafi, ekonomik ve siyasi sorunları da bize aktarmıştır. [@ak2019birlecsmics]. İzzet Soner Ayhan ise bu çalışmasında Çin'in Barış Gücü Operasyonlarına özellikle 2000’li yıllardan sonra Afrika'da artış göstermesine katkısı olan etkenler ve bu katkının Birleşmiş Milletler Barış Gücü Operasyonları üzerindeki etkisini incelemektedir [@ayhan2013yeni]. Reading Üniversitesi'nde küresel kalkınma profesörü olan Rosa Freedman da çalışmasında Barış Gücü'nün gerçekleştirdiği cinsel suçlara farklı bir bakış açısıyla yaklaşmaya çalışmıştır [@freedman2018unaccountable].
+
+
+\newpage
+# Kaynakça {#references}
+<div id="refs"></div>
+
+

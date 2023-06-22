@@ -1,0 +1,131 @@
+---
+title: "Birleşmiş Milletler Barış Gücü'nün Afrika'da Olan Sömürüleri ve Cinsel Suçları"
+author: 
+  - İclal Sever[^1]
+bibliography: ../bibliography/biblio.bib
+csl: ../csl/apa-tr.csl
+header-includes:
+  - \usepackage{polyglossia}
+  - \setmainlanguage{turkish}
+  - \usepackage{booktabs}
+  - \usepackage{caption} 
+  - \captionsetup[table]{skip=10pt}
+output:
+  bookdown::pdf_document2:
+    fig_caption: yes
+    fig_height: 3
+    fig_width: 4
+    keep_tex: no
+    latex_engine: xelatex
+    number_sections: yes
+    toc: no
+geometry: margin=1in
+link-citations: yes
+urlcolor: pink
+fontsize: 12pt
+biblio-style: apalike
+abstract: |
+  Bu çalışmada BM Barış Gücünün Afrika'daki yerel halka karşı olan cinsel sömürülerini ve illegal davranışlarını göstermeye çalıştım. Amacım durumun farkına daha iyi varabilmek ve farkındalık yaratmaktır.
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(cache = FALSE, echo = TRUE, message = FALSE, warning = FALSE)
+```
+[^1]: 21080550, [Github Repo](https://github.com/iclsever/final.git)
+
+# Giriş
+Birleşmiş Milletler tarafından yürütülen Barış Gücü operasyonları çatışmalardan kaçınmak, olduğu zaman sonlandırmak ve bunları dönüştürmek için en çok başvurulan metotlardan biridir. İlk barış gücü operasyonu 1948 yılında İsrail ve Arap komşuları arasındaki ateşkesi incelemek üzerine yapılmıştır. Dünyanın bir çok yerinde uygulanmasına rağmen en çok barış misyonu Afrika kıtasında gerçekleşmektedir. 
+ 
+ Barış gücü ekibi gittikleri yere barışı sağlamak gibi hedefleri olsa da, olumsuzluklar yaşama ve barışçılıklarına aykırı davranışlar gösterdikleri durumlar da vardır. Örneğin 2004 yılında Demokratik Kongo Cumhuriyeti'nde mavi bereliler (BM Barış Gücü askerleri) yiyecek, para ve başka malzemeler için yerel halkla cinsel birlikteliklerde bulunuyorlardı. Bu birlikteliklerin bir çoğu rıza ile gerçekleşmiyordu.
+ 
+ 2005 yılında bu durumun önüne geçilebilmesi için Zeid Raporu yayımlansa da, yine de bu tür olayları engellemekte yeterli olmamıştır. Askerlerin gittikleri ülkede dokunulmazlıklarının olması, Afrika'da yaşayan bir çok insanın ve devletin maddi gücünün yetersiz olması ve bu gibi durumlar mavi berelilerin bu suçları işlemesinin önüne geçememiştir.
+ 
+ Bu verileri Harvard Üniversitesi'nin dataserve'ünden alıp düzenleyerek size sunuyorum. Verilerin içinde istismarların hangi bölgede, hangi ülkede ve hangi görevdeyken gerçekleştirildikleri aktarılıyor. Barışçıllık ilkesi altında gerçekleştirilen davranışların göründüğü kadar masum olmadığını insanlara fark ettirmek bu projenin konusunu seçerken asıl motivasyonumdu.
+
+
+
+## Çalışmanın Amacı
+Bu çalışmanın amacı, Afrika kıtasında farklı ülkelerde yer alan Barış Gücü askerlerinin yerel halka nasıl istismarlarda bulunduklarını ve cinsel olarak nasıl onlardan yararlandıklarını aktarmak ve veri setinin düzenlenmesi sonucunda karşımıza çıkan tabloyu inceleyerek, bu durumun önüne geçilmesi için adıma teşvik ettirmektir.
+
+
+## Literatür 
+
+Literatür araştırması sonucunda bulduğum kaynaklarda Afrika kıtasında gerçekleşen barış gücü operasyonları, bu operasyonların tarihi süreçte nasıl ilerlediği, amacından sapmaları ve daha saldırgan olmaları, yerel halkı sömürmeleri ve onlara cinsel saldırılarda bulunmaları ele alınmıştır. Güney Afrika Üniversitesi'nde profesör olan Carol Allais eserinde mavi bereliler tarafından gerçekleşen cinsel istismarın psikososyal bağlamlarını incelemiştir [@allais2011sexual]. Gökhan Ak ve Yasin Başpınar bu çalışmalarında Barış Gücü operasyonlarını tarihi süreç açısından incelemişlerdir. Bunun yanı sıra bölgede yaşanan coğrafi, ekonomik ve siyasi sorunları da bize aktarmıştır. [@ak2019birlecsmics]. İzzet Soner Ayhan ise bu çalışmasında Çin'in Barış Gücü Operasyonlarına özellikle 2000’li yıllardan sonra Afrika'da artış göstermesine katkısı olan etkenler ve bu katkının Birleşmiş Milletler Barış Gücü Operasyonları üzerindeki etkisini incelemektedir [@ayhan2013yeni]. Reading Üniversitesi'nde küresel kalkınma profesörü olan Rosa Freedman da çalışmasında Barış Gücü'nün gerçekleştirdiği cinsel suçlara farklı bir bakış açısıyla yaklaşmaya çalışmıştır [@freedman2018unaccountable]. Bu verileri bize sunan çalışmayı yürüten R Nordås, bize bu verileri ve çalışmasının sonuçlarını bu makalesinde oldukça güzel bir şekilde açıklıyor. [@nordaas2013sexual] Ekstra olarak durumun vehametini bize gösteren ve sadece kadınlara karşı değil, kız çocuklarına karşı dahi cinsel suçlarda bulunulduğunu, ayrıca yaşanan şeylerin ardından verilen tepkileri ve olayları anlatmış bu makalede L Vahedi, SA Bartels ve S Lee. [@vahedi2021even]
+
+# Veri 
+ Verimi Harvard'ın dataverse'ünden aldım. Verinin asıl hali tüm dünyayı kaplıyordu, ben sadece Afrika kıtası üzerinde çalışmak istediğim için diğer kıtaları temizledim. Özet İstatistik tablomuza baktığımızda karşımıza çıkan ilk kavram Cinsel Saldırı (ConflictSV) oluyor. Veri setimde değeri 1 ve 0 olan CS'nin ortalamasına bakarsak Barış Elçileri'nin çoğu cinsel bir saldırıda bulunuyor. Barış Gücü'nün onda üçünde kadın bulunduğu görüyoruz.(d_womres) Ortalama görev süresi 10 yıl, ve 2005 öncesi ve sonrası görev durumu neredeyse yarı yarıya gözükmekte.
+
+```{r, echo=FALSE}
+library(tidyverse)
+library(here)
+datacik <- read.csv2(here("C:/Users/rory/Desktop/Final/data/datacik.csv"))
+```
+```{r, echo=FALSE}
+library(xtable) 
+# devtools::install_github("emraher/summarytools")
+library(summarytools)
+st_options(lang = "tr")
+```
+
+```{r results='asis', echo=FALSE}
+datacik %>%
+  select("sea", "conflLevel", "conflictSV", "d_womres", "end", "id", "post2005", "year.count", "start.year", "spousalrape_host", "spousalrapelaw_tcc") %>% 
+  descr(stats = c("mean", "sd", "min", "med", "max"), transpose = TRUE) %>% 
+  xtable(caption = "Özet İstatistikler",
+         label = "tab:ozet",
+         align = c("l", "c", "c", "c", "c", "c")) %>% 
+  print(booktabs = TRUE, comment = FALSE, caption.placement = "top")
+```
+
+
+\newpage
+
+
+# Yöntem ve Veri Analizi
+
+Çalışmanın amacına ulaşması için cinsel suçlara dikkat çekmek ve bu suçların tahmini olarak ne kadar sürdüğünü ele almak istedim. Ayrıca bu durumun üzerinde kadınların etkisinin olup olmadığını da merak ettim. Grafiklerden anladığım kadarıyla, çatışmanın boyutunun ne kadar büyük ya da ne kadar küçük olduğu çok da önemli değil. BM Barış Gücü'nün bir bölgede ne kadar kalmalarını istiyorlarsa o kadar kalıyorlar. Ayrıca Barış Gücü'nün içinde kadınların olmasıyla cinsel suç oranı arasında bir korelasyon yok. Ekipte kadın olsun ya da olmasın bu yapılacak suçları önlemiyor.
+
+```{r, fig.align='center', fig.cap='Çatışma Seviyesi ile Görev Süresinin İlişkisi', echo=FALSE}
+datacik %>%
+  tail(1000) %>%
+  ggplot( aes(x=conflLevel, y=year.count)) +
+  geom_line( color="purple") +
+  geom_point(shape=21, color="black", fill="purple", size=6) +
+  ggtitle("Var Olan Çatışma ile Görev Süresinin İlişkisi")
+```
+
+```{r, fig.align='center', fig.cap='Baska Bir Grafik', echo=FALSE}
+
+datacik %>% 
+  ggplot(aes(x = conflictSV, y = d_womres)) +
+  geom_point() +
+  geom_smooth() +
+  scale_x_continuous("Cinsel Suc Oranı") + 
+  scale_y_continuous("Kadın Sayısı")
+
+```
+
+```{r plot, fig.align='center', fig.cap='Guzel Bir Grafik', echo=FALSE}
+
+library(readxl)
+library(dplyr)
+library(ggplot2)
+datacikamaexcel <- read_excel("C:/Users/rory/Desktop/Final/data/datacikamaexcel.xlsx")
+
+
+## conflictlevel year count karsilastirma
+df_conf_year <- datacikamaexcel %>% group_by(`year count`) %>%  summarise(mean = mean(as.numeric(conflLevel)), n = n())
+df_conf_year <- df_conf_year %>% arrange(as.numeric(df_conf_year$`year count`))
+plot(df_conf_year$`year count`,df_conf_year$mean,type = 'b')
+
+```
+
+\newpage
+# Sonuç
+
+ Bu çalışmada özet istatistikleri çıkartıp, üç tane grafik oluşturdum. Çalışmamın amacı durumun kötülüğünü az da olsa insanlara gösterebilmekti. Sayısal veriler üzerinden bunun ne kadar mümkün olduğu tartışılır ama ben bir miktar da olsa bu konunun insanlara ulaşabileceğini düşünüyorum. Suçların ne olursa olsun engellenemediğinin farkına vardım bu çalışmayı yaparken. Bireysel olarak elimizden bir şey gelmese de bu konunun kamuoyuna taşınması sorunun çözülmesi için bir adım olabilir.
+
+
+\newpage
+# Kaynakça {#references}
+<div id="refs"></div>
+

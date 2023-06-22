@@ -1,0 +1,77 @@
+loc1;mission;sea;conflLevel;continent;conflictSV;d_womres;end;id;post2005;spousalrape_host;spousalrapelaw_tcc;start year;year count
+Angola;MONUA;0.0;1.0;Africa;1;0;1999;1;0;1;1.0;1997;2
+Angola;MONUA;0.0;2.0;Africa;1;0;1999;1;0;1;0.0;1997;1
+Angola;MONUA;0.0;2.0;Africa;1;0;1999;1;0;1;1.0;1997;1
+Sierra Leone;UNOMSIL;0.0;2.0;Africa;1;0;1999;2;0;0;0.0;1998;1
+Sierra Leone;UNOMSIL;0.0;2.0;Africa;1;0;1999;2;0;0;1.0;1998;1
+Eritrea/Ethiopia;UNMEE;0.0;2.0;Africa;1;0;2008;3;0;0;1.0;2000;8
+Eritrea/Ethiopia;UNMEE;1.0;1.0;Africa;1;0;2008;3;0;0;0.0;2000;8
+Eritrea/Ethiopia;UNMEE;1.0;1.0;Africa;1;0;2008;3;0;0;0.0;2000;8
+Eritrea/Ethiopia;UNMEE;1.0;1.0;Africa;1;0;2008;3;0;0;0.0;2000;8
+Eritrea/Ethiopia;UNMEE;1.0;1.0;Africa;1;0;2008;3;0;0;0.0;2000;8
+Eritrea/Ethiopia;UNMEE;0.0;1.0;Africa;1;0;2008;3;1;0;0.0;2000;8
+Eritrea/Ethiopia;UNMEE;0;1;Africa;1;0;2008;3;1;0;0;2000;8
+Eritrea/Ethiopia;UNMEE;1;1;Africa;1;0;2008;3;1;0;0;2000;8
+Eritrea/Ethiopia;UNMEE;1;1;Africa;1;0;2008;3;1;0;0;2000;8
+Burundi;ONUB;1;1;Africa;1;1;2006;4;0;0;1;2004;2
+Burundi;ONUB;1;1;Africa;1;1;2006;4;1;0;0;2004;2
+Burundi;ONUB;1;1;Africa;1;1;2006;4;1;0;1;2004;2
+DRC;MONUC;0;2;Africa;1;1;2010;5;0;0;0;1999;11
+DRC;MONUC;0;2;Africa;1;1;2010;5;0;0;0;1999;11
+DRC;MONUC;0;1;Africa;1;1;2010;5;0;0;0;1999;11
+DRC;MONUC;0;0;Africa;1;1;2010;5;0;0;0;1999;11
+DRC;MONUC;0;0;Africa;1;1;2010;5;0;0;0;1999;11
+DRC;MONUC;1;0;Africa;1;1;2010;5;0;0;0;1999;11
+DRC;MONUC;1;0;Africa;1;1;2010;5;1;0;0;1999;11
+DRC;MONUC;1;1;Africa;1;1;2010;5;1;0;0;1999;11
+DRC;MONUC;1;1;Africa;1;1;2010;5;1;0;0;1999;11
+DRC;MONUC;1;1;Africa;1;1;2010;5;1;0;0;1999;11
+DRC;MONUC;1;0;Africa;1;1;2010;5;1;0;0;1999;11
+DRC;MONUC;1;0;Africa;1;1;2010;5;1;0;0;1999;11
+Western Sahara;MINURSO;0;0;Africa;0;0;2011;17;0;0;1;1991;20
+Western Sahara;MINURSO;0;0;Africa;0;0;2011;17;0;0;0;1991;20
+Western Sahara;MINURSO;0;0;Africa;0;0;2011;17;0;0;1;1991;20
+Western Sahara;MINURSO;0;0;Africa;0;0;2011;17;0;0;1;1991;20
+Western Sahara;MINURSO;0;0;Africa;0;0;2011;17;0;0;0;1991;20
+Western Sahara;MINURSO;0;0;Africa;0;0;2011;17;0;0;0;1991;20
+Western Sahara;MINURSO;0;0;Africa;0;0;2011;17;0;0;1;1991;20
+Western Sahara;MINURSO;0;0;Africa;0;0;2011;17;0;0;0;1991;20
+Western Sahara;MINURSO;0;0;Africa;0;0;2011;17;0;0;1;1991;20
+Western Sahara;MINURSO;0;0;Africa;0;0;2011;17;0;0;1;1991;20
+Western Sahara;MINURSO;0;0;Africa;0;0;2011;17;0;0;1;1991;20
+Western Sahara;MINURSO;0;0;Africa;0;0;2011;17;0;0;0;1991;20
+Western Sahara;MINURSO;0;0;Africa;0;0;2011;17;0;0;1;1991;20
+Western Sahara;MINURSO;0;0;Africa;0;0;2011;17;0;0;1;1991;20
+Western Sahara;MINURSO;0;0;Africa;0;0;2011;17;1;0;1;1991;20
+Western Sahara;MINURSO;1;0;Africa;0;0;2011;17;1;0;1;1991;20
+Western Sahara;MINURSO;1;0;Africa;0;0;2011;17;1;0;1;1991;20
+Western Sahara;MINURSO;0;0;Africa;0;0;2011;17;1;0;1;1991;20
+Western Sahara;MINURSO;0;0;Africa;0;0;2011;17;1;0;1;1991;20
+Western Sahara;MINURSO;0;0;Africa;0;0;2011;17;1;0;1;1991;20
+Liberia;UNMIL;0;2;Africa;1;0;2011;18;0;0;0;2003;8
+Liberia;UNMIL;1;0;Africa;1;0;2011;18;0;0;0;2003;8
+Liberia;UNMIL;1;0;Africa;1;0;2011;18;1;0;0;2003;8
+Liberia;UNMIL;1;0;Africa;1;0;2011;18;1;0;0;2003;8
+Liberia;UNMIL;1;0;Africa;1;0;2011;18;1;0;0;2003;8
+Liberia;UNMIL;1;0;Africa;1;0;2011;18;1;0;0;2003;8
+Liberia;UNMIL;1;0;Africa;1;0;2011;18;1;0;0;2003;8
+Liberia;UNMIL;1;0;Africa;1;0;2011;18;1;0;0;2003;8
+Sudan;UNMIS;1;2;Africa;1;1;2011;20;1;0;0;2005;6
+Sudan;UNMIS;1;2;Africa;1;1;2011;20;1;0;0;2005;6
+Sudan;UNMIS;1;1;Africa;1;1;2011;20;1;0;0;2005;6
+Sudan;UNMIS;1;1;Africa;1;1;2011;20;1;0;0;2005;6
+Sudan;UNMIS;1;1;Africa;1;1;2011;20;1;0;0;2005;6
+Sudan;UNAMID;0;1;Africa;1;1;2010;21;1;0;0;2007;3
+Sudan;UNAMID;1;1;Africa;1;1;2010;21;1;0;0;2007;3
+Sudan;UNAMID;1;1;Africa;1;1;2010;21;1;0;0;2007;3
+Central African Rep/Chad;MINURCAT;0;1;Africa;1;1;2010;22;1;0;0;2007;3
+Central African Rep/Chad;MINURCAT;0;1;Africa;1;1;2010;22;1;0;0;2007;3
+Central African Rep/Chad;MINURCAT;1;1;Africa;1;1;2010;22;1;0;1;2007;3
+Central African Rep/Chad;MINURCAT;1;1;Africa;1;1;2010;22;1;0;1;2007;3
+DRC;MONUSCO;1;0;Africa;1;1;2011;23;1;0;0;2010;1
+Sierra Leone;UNAMSIL;1;1;Africa;1;0;2005;36;0;0;0;1999;6
+Sierra Leone;UNAMSIL;1;0;Africa;1;0;2005;36;0;0;0;1999;6
+Sierra Leone;UNAMSIL;1;0;Africa;1;0;2005;36;0;0;0;1999;6
+Sierra Leone;UNAMSIL;0;0;Africa;1;0;2005;36;0;0;0;1999;6
+Sierra Leone;UNAMSIL;1;0;Africa;1;0;2005;36;0;0;0;1999;6
+Sierra Leone;UNAMSIL;0;0;Africa;1;0;2005;36;0;0;0;1999;6
